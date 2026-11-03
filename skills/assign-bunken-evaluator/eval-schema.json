@@ -1,0 +1,41 @@
+{
+  "version": "3",
+  "skill": "assign-bunken-evaluator",
+  "score_field": "quality.overall",
+  "breakdown_keys": [
+    {
+      "key": "shoshi",
+      "label": "書誌7項目(著者名・年・題名・誌名・巻(号)・頁・出版社)がリンク先と合う",
+      "threshold": 70,
+      "weight": 50
+    },
+    {
+      "key": "nyushu",
+      "label": "入手状況・精読フラグ・要旨の印が読めた範囲に合う",
+      "threshold": 70,
+      "weight": 30
+    },
+    {
+      "key": "yoshi",
+      "label": "要旨の箇条が抜き書きと原典に支えられている(明白な取り違えが無い)",
+      "threshold": 70,
+      "weight": 20
+    }
+  ],
+  "extras": {
+    "plan_implementation": "supplemental",
+    "feedback": "required",
+    "feedback_structured": "required",
+    "checked_rows": "required",
+    "corrections": "required",
+    "unverified_rows": "required",
+    "passed": "required",
+    "evaluator_skill": "required",
+    "genten_shoshi": "required",
+    "yoshi_konkyo": "required"
+  },
+  "passing_rule": "all_dimensions_passed AND score >= threshold AND no high findings AND no unverified_rows",
+  "ref": "run-bunken-daicho/SKILL.md 工程5 と run-bunken-daicho/references/daicho-format.md",
+  "rubric": null,
+  "notes": "チェッカーの段階B が照らすのは DOI を持つ行だけ(書誌の項目ファイルを渡せば7項目、渡さなければ著者名・誌名・巻(号)の3項目)で、DOI の無い行と登録機関に記録の無い行は見ない。この評価役は7項目すべてと入手状況・要旨の範囲を、リンク先を開いて見る。 原典は原文のまま取る(WebFetch は要約を返し固有名詞が化けうるので最後の手段)。版2(2026-10-31): 要旨と抜き書きの食い違いを読む観点 yoshi を足した(claude-harness の ch-f5x.9・D62 の4枚目 問1)。 版3(2026-11-02): 原典から写した書誌 genten_shoshi と要旨の箇条ごとの根拠 yoshi_konkyo を足した。呼び出し元の kaime.py が台帳の書誌と1字ずつ照らし、点を観点の点から数え直す(claude-harness の ch-jxl・ch-gya)。"
+}

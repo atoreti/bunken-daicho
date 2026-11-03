@@ -1,0 +1,181 @@
+{
+ "source_head": "7120ab6",
+ "built": "20261104",
+ "files": [
+  {
+   "path": "LICENSE",
+   "bytes": 1064,
+   "sha256": "894b661977496f1a70f73c1d1ba4901647f0627550232e5e4647be8d7eab21b3"
+  },
+  {
+   "path": "README.md",
+   "bytes": 58941,
+   "sha256": "d4b867772b32727efaaf7acc43fca3721d24f9ad05293adcae1dac97f063adca"
+  },
+  {
+   "path": "claude-ai/assign-bunken-evaluator.skill",
+   "bytes": 8294,
+   "sha256": "e9d4d13e88d60d9b520f103baf5ad1066a1afc5c3ce1dc5b917a82861068a42c"
+  },
+  {
+   "path": "claude-ai/assign-bunken-guide-evaluator.skill",
+   "bytes": 5966,
+   "sha256": "2688077c0bc952955a3a87833b8a7fe0ecdc82087acba06b80e4bfa7a27780d9"
+  },
+  {
+   "path": "claude-ai/ref-nohin-checker.skill",
+   "bytes": 236961,
+   "sha256": "bc4e682f31e9749ce5ffe0e178476f899d12df56aabb49186fc9dc873ae1330c"
+  },
+  {
+   "path": "claude-ai/run-bunken-daicho.skill",
+   "bytes": 219712,
+   "sha256": "75a28406491b8bcedc2e6fbf3b7bd0d17c7de9aff01c04c337724bafb6500039"
+  },
+  {
+   "path": "images/daicho-atama.png",
+   "bytes": 179055,
+   "sha256": "4d0c652aed06928ad0be7cf1de45061abb9f17d08682d1227bb909a5c39cdca5"
+  },
+  {
+   "path": "images/daicho-ichiran.png",
+   "bytes": 257939,
+   "sha256": "877e35b5a7759fd7641b24b9b546bb25eef8979623c0aeaad781ffea6e3d3e5c"
+  },
+  {
+   "path": "skills/assign-bunken-evaluator/LICENSE.txt",
+   "bytes": 1064,
+   "sha256": "894b661977496f1a70f73c1d1ba4901647f0627550232e5e4647be8d7eab21b3"
+  },
+  {
+   "path": "skills/assign-bunken-evaluator/SKILL.md",
+   "bytes": 14964,
+   "sha256": "44e42eb93a27ef05f5a6a7354c3eae48539f097dbd706f45ea4c1e12233858bb"
+  },
+  {
+   "path": "skills/assign-bunken-evaluator/eval-schema.json",
+   "bytes": 2147,
+   "sha256": "74c13d0482d88c58152891d7a5cd25e295a6ee2d7877e2f7d8413eebab38f9b2"
+  },
+  {
+   "path": "skills/assign-bunken-guide-evaluator/LICENSE.txt",
+   "bytes": 1064,
+   "sha256": "894b661977496f1a70f73c1d1ba4901647f0627550232e5e4647be8d7eab21b3"
+  },
+  {
+   "path": "skills/assign-bunken-guide-evaluator/SKILL.md",
+   "bytes": 9474,
+   "sha256": "09d86236cfe24ecc7dbcc1284c43767253b1e7c014557242b9c59c3801c50553"
+  },
+  {
+   "path": "skills/assign-bunken-guide-evaluator/eval-schema.json",
+   "bytes": 1567,
+   "sha256": "1147b9683dc54f7eb92baf5ce6a0f9e29290afdee4a37f3f0ed0ed12440f961d"
+  },
+  {
+   "path": "skills/ref-nohin-checker/LICENSE.txt",
+   "bytes": 1064,
+   "sha256": "894b661977496f1a70f73c1d1ba4901647f0627550232e5e4647be8d7eab21b3"
+  },
+  {
+   "path": "skills/ref-nohin-checker/SKILL.md",
+   "bytes": 11859,
+   "sha256": "705e316bf85ad9533dbccdb6ec2c76c95f9b41c9c3c9c4d56df071f5a1e44bf9"
+  },
+  {
+   "path": "skills/ref-nohin-checker/references/kankyo.md",
+   "bytes": 3388,
+   "sha256": "b2ca240bb4efe7b3d94cef8c46f077dfb3d9566c4cc7fda763063af850d8a3d9"
+  },
+  {
+   "path": "skills/ref-nohin-checker/tools/checker/check_deliverable.py",
+   "bytes": 673608,
+   "sha256": "a6381e2fa5b756024dbce96968edb5467b7682c8b00a27c4a3fb900143d32bd0"
+  },
+  {
+   "path": "skills/ref-nohin-checker/tools/checker/deliverable-rules.md",
+   "bytes": 104652,
+   "sha256": "2dcff8ec5b88f460f580708185adcc15c5d6353db6ce3122a7917108f1be0fc3"
+  },
+  {
+   "path": "skills/run-bunken-daicho/LICENSE.txt",
+   "bytes": 1064,
+   "sha256": "894b661977496f1a70f73c1d1ba4901647f0627550232e5e4647be8d7eab21b3"
+  },
+  {
+   "path": "skills/run-bunken-daicho/SKILL.md",
+   "bytes": 40221,
+   "sha256": "5b7fdb107346dcf3122f005867ed0ef7ff8cb9f1a5c3601c5663001c1e5b474e"
+  },
+  {
+   "path": "skills/run-bunken-daicho/assets/daicho-page.html",
+   "bytes": 8257,
+   "sha256": "833d8ace9b5acc7313a8a14ba6e0f57b69b0c117184ebd1820c8c98f3267b39f"
+  },
+  {
+   "path": "skills/run-bunken-daicho/references/daicho-format.md",
+   "bytes": 70562,
+   "sha256": "2da5dd731dee99fd3487ff56321a0725b40703777c5ddb79211e3a6e7a6ceff3"
+  },
+  {
+   "path": "skills/run-bunken-daicho/references/toki-ni-yomu.md",
+   "bytes": 5652,
+   "sha256": "fb62d296f136483daba0d945b885ae24ec0559c42edd22b46d9f80f209ad3bff"
+  },
+  {
+   "path": "skills/run-bunken-daicho/references/wabun-db-guide.md",
+   "bytes": 32521,
+   "sha256": "b00e2ccfa3b15f120cb72e7b938b228bac225371662cf85c947126517701ce1c"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/daicho.py",
+   "bytes": 109781,
+   "sha256": "9fc13d10bff62bcbe8c22b05c1fb439f801370aa643dba1e697023323babae7e"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/honbun.py",
+   "bytes": 16607,
+   "sha256": "b6240ea0934608edc55519e52aa427b31f5830883b46933975fedb622eabd32f"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/kaime.py",
+   "bytes": 28934,
+   "sha256": "75ec0fb6563555ace23c1199399efcb5a91a7b635ee9a71867698b52917ffcce"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/kensaku.py",
+   "bytes": 80779,
+   "sha256": "856770c8c7f7837ab251834ccf42ff2dcef9d22cd95015df1e195ad13b1f533c"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/kiroku.py",
+   "bytes": 12209,
+   "sha256": "db0dc0d9c07223795b8fee57aeea4f79e3ac5c7bc35c792d0a2cab137aaae4c6"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/kyotsu.py",
+   "bytes": 6922,
+   "sha256": "b4882ee80a04ea8f585a24a596bc4704bde24086c31f9e41b0b601e69f48f8d7"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/nukigaki.py",
+   "bytes": 8610,
+   "sha256": "a1072c2ea19c0c91c36bd4fb148f8b0576de620f76d205aa8fa23cb2ed851b58"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/shoshi.py",
+   "bytes": 13531,
+   "sha256": "0b05a4ee20c1a097334564cbe400f5ce3c7b5a2dc3c2228a4be8cfc1662aee05"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/teian.py",
+   "bytes": 29368,
+   "sha256": "c0e2ae054cf376840c9e507af16873a408eb56a55e05919b15ed80df3f606bfa"
+  },
+  {
+   "path": "skills/run-bunken-daicho/scripts/test_scripts.py",
+   "bytes": 204660,
+   "sha256": "d1ffbc56159c81a11f59ad16df9f371b0d4f14fa44645a53863568b34649c64d"
+  }
+ ]
+}

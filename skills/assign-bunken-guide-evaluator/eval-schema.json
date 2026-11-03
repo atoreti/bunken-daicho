@@ -1,0 +1,33 @@
+{
+  "version": "1",
+  "skill": "assign-bunken-guide-evaluator",
+  "score_field": "quality.overall",
+  "breakdown_keys": [
+    {
+      "key": "jitsuzai",
+      "label": "提案のうち、言葉がページに字のまま在り、中身がページと合う(tootta)提案の割合",
+      "threshold": 0,
+      "weight": 100
+    }
+  ],
+  "extras": {
+    "plan_implementation": "supplemental",
+    "all_dimensions_passed": "required(足切り0なので常に true)",
+    "feedback": "required",
+    "feedback_structured": "required",
+    "teian": "required",
+    "passed": "required",
+    "evaluator_skill": "required"
+  },
+  "teian_item": {
+    "id": "提案の番号(T1 など。context の teian の番号を全部1回ずつ)",
+    "hantei": "tootta | tooranai | tashikamerarenai",
+    "konkyo": "tootta の時: 提案の言葉を1つ以上含むページの原文1か所(字のまま。160字まで)",
+    "jissai": "tooranai の時: ページに実際にある書き方(字のまま)",
+    "riyuu": "tooranai・tashikamerarenai の時の1行"
+  },
+  "passing_rule": "tooranai が0件",
+  "ref": "run-bunken-daicho/references/wabun-db-guide.md と run-bunken-daicho/references/toki-ni-yomu.md の4(SKILL.md の工程7 から指す)",
+  "rubric": null,
+  "notes": "ページを開くのも言葉を数えるのも run-bunken-daicho/scripts/teian.py の toru。足せる提案にするかは teian.py の kekka が決める(この役が tootta と書いても、言葉が0回・根拠の字がページに無い・開き直していない提案は通らない)。"
+}
